@@ -1,0 +1,6 @@
+@ExplorerApp_HostAddress = http://localhost:5081
+
+GET {{ExplorerApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

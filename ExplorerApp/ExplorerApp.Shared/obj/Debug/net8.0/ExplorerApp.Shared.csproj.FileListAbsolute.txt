@@ -1,0 +1,11 @@
+C:\projects\ExplorerApp\ExplorerApp.Shared\bin\Debug\net8.0\ExplorerApp.Shared.deps.json
+C:\projects\ExplorerApp\ExplorerApp.Shared\bin\Debug\net8.0\ExplorerApp.Shared.dll
+C:\projects\ExplorerApp\ExplorerApp.Shared\bin\Debug\net8.0\ExplorerApp.Shared.pdb
+C:\projects\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.AssemblyInfoInputs.cache
+C:\projects\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.AssemblyInfo.cs
+C:\projects\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.csproj.CoreCompileInputs.cache
+C:\projects\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.dll
+C:\projects\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\refint\ExplorerApp.Shared.dll
+C:\projects\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.pdb
+C:\projects\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ref\ExplorerApp.Shared.dll

@@ -1,0 +1,14 @@
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\bin\Debug\net8.0\ExplorerApp.Infrastructure.deps.json
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\bin\Debug\net8.0\ExplorerApp.Infrastructure.runtimeconfig.json
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\bin\Debug\net8.0\ExplorerApp.Infrastructure.dll
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\bin\Debug\net8.0\ExplorerApp.Infrastructure.pdb
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\ExplorerApp.Infrastructure.csproj.AssemblyReference.cache
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\ExplorerApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\ExplorerApp.Infrastructure.AssemblyInfoInputs.cache
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\ExplorerApp.Infrastructure.AssemblyInfo.cs
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\ExplorerApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\ExplorerApp.Infrastructure.dll
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\refint\ExplorerApp.Infrastructure.dll
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\ExplorerApp.Infrastructure.pdb
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\ExplorerApp.Infrastructure.genruntimeconfig.cache
+C:\projects\ExplorerApp\ExplorerApp.Infrastructure\obj\Debug\net8.0\ref\ExplorerApp.Infrastructure.dll
