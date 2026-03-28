@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {}
+    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {}
   },
   "projects": {
-    "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "projectUniqueName": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
         "projectName": "ExplorerApp.Shared",
-        "projectPath": "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
+        "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\brene\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brene\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

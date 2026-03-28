@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {}
+    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {}
   },
   "projects": {
-    "C:\\projects\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
+    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
         "projectName": "ExplorerApp.Infrastructure",
-        "projectPath": "C:\\projects\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\ExplorerApp\\ExplorerApp.Infrastructure\\obj\\",
+        "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\brene\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brene\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -81,24 +81,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "projectUniqueName": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
         "projectName": "ExplorerApp.Shared",
-        "projectPath": "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
+        "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\brene\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brene\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -146,24 +146,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projects\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {
+    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+        "projectUniqueName": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
         "projectName": "ExplorerApp",
-        "projectPath": "C:\\projects\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\ExplorerApp\\ExplorerApp\\obj\\",
+        "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+        "packagesPath": "C:\\Users\\brene\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brene\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,11 +178,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\projects\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
-                "projectPath": "C:\\projects\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
+              "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
               },
-              "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
-                "projectPath": "C:\\projects\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
+              "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+                "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
               }
             }
           }
@@ -241,7 +241,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
