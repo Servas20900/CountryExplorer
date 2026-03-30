@@ -5,172 +5,110 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Countries": {
+    "/api/countries": {
       "get": {
         "tags": [
-          "Countries"
+          "ExplorerApp"
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CountryDto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CountryDto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/CountryDto"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Countries"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCountryDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCountryDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCountryDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryDto"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
     },
-    "/api/Countries/{id}": {
+    "/api/countries/external": {
       "get": {
         "tags": [
-          "Countries"
+          "ExplorerApp"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/countries/{name}": {
+      "get": {
+        "tags": [
+          "ExplorerApp"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "name",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string"
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/CountryDto"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
-      },
-      "put": {
+      }
+    },
+    "/api/countries/save": {
+      "post": {
         "tags": [
-          "Countries"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
+          "ExplorerApp"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateCountryDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCountryDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateCountryDto"
+                "$ref": "#/components/schemas/CountryDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
             "description": "OK"
           }
         }
+      }
+    },
+    "/api/favorites": {
+      "get": {
+        "tags": [
+          "ExplorerApp"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       },
+      "post": {
+        "tags": [
+          "ExplorerApp"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFavoriteDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/favorites/{id}": {
       "delete": {
         "tags": [
-          "Countries"
+          "ExplorerApp"
         ],
         "parameters": [
           {
@@ -223,28 +161,12 @@
         },
         "additionalProperties": false
       },
-      "CreateCountryDto": {
+      "CreateFavoriteDto": {
         "type": "object",
         "properties": {
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "capital": {
-            "type": "string",
-            "nullable": true
-          },
-          "population": {
+          "countryId": {
             "type": "integer",
-            "format": "int64"
-          },
-          "region": {
-            "type": "string",
-            "nullable": true
-          },
-          "flagUrl": {
-            "type": "string",
-            "nullable": true
+            "format": "int32"
           }
         },
         "additionalProperties": false

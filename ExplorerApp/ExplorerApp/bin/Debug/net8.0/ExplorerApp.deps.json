@@ -9,6 +9,7 @@
       "ExplorerApp/1.0.0": {
         "dependencies": {
           "ExplorerApp.Infrastructure": "1.0.0",
+          "ExplorerApp.Services": "1.0.0",
           "ExplorerApp.Shared": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
@@ -800,6 +801,11 @@
           }
         }
       },
+      "System.Net.Http.Json/8.0.0": {
+        "dependencies": {
+          "System.Text.Json": "8.0.0"
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {},
       "System.Reflection.Metadata/6.0.1": {
         "dependencies": {
@@ -913,6 +919,19 @@
         },
         "runtime": {
           "ExplorerApp.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ExplorerApp.Services/1.0.0": {
+        "dependencies": {
+          "ExplorerApp.Infrastructure": "1.0.0",
+          "ExplorerApp.Shared": "1.0.0",
+          "System.Net.Http.Json": "8.0.0"
+        },
+        "runtime": {
+          "ExplorerApp.Services.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1389,6 +1408,13 @@
       "path": "system.memory.data/1.0.2",
       "hashPath": "system.memory.data.1.0.2.nupkg.sha512"
     },
+    "System.Net.Http.Json/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-48Bxrd6zcGeQzS4GMEDVjuqCcAw/9wcEWnIu48FQJ5IzfKPiMR1nGtz9LrvGzU4+3TLbx/9FDlGmCUeLin1Eqg==",
+      "path": "system.net.http.json/8.0.0",
+      "hashPath": "system.net.http.json.8.0.0.nupkg.sha512"
+    },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -1509,6 +1535,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "ExplorerApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExplorerApp.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

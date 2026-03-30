@@ -1273,6 +1273,25 @@
           }
         }
       },
+      "System.Net.Http.Json/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -1601,6 +1620,21 @@
         },
         "runtime": {
           "bin/placeholder/ExplorerApp.Infrastructure.dll": {}
+        }
+      },
+      "ExplorerApp.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ExplorerApp.Infrastructure": "1.0.0",
+          "ExplorerApp.Shared": "1.0.0",
+          "System.Net.Http.Json": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ExplorerApp.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExplorerApp.Services.dll": {}
         }
       },
       "ExplorerApp.Shared/1.0.0": {
@@ -3779,6 +3813,36 @@
         "system.memory.data.nuspec"
       ]
     },
+    "System.Net.Http.Json/8.0.0": {
+      "sha512": "48Bxrd6zcGeQzS4GMEDVjuqCcAw/9wcEWnIu48FQJ5IzfKPiMR1nGtz9LrvGzU4+3TLbx/9FDlGmCUeLin1Eqg==",
+      "type": "package",
+      "path": "system.net.http.json/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Net.Http.Json.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Net.Http.Json.targets",
+        "lib/net462/System.Net.Http.Json.dll",
+        "lib/net462/System.Net.Http.Json.xml",
+        "lib/net6.0/System.Net.Http.Json.dll",
+        "lib/net6.0/System.Net.Http.Json.xml",
+        "lib/net7.0/System.Net.Http.Json.dll",
+        "lib/net7.0/System.Net.Http.Json.xml",
+        "lib/net8.0/System.Net.Http.Json.dll",
+        "lib/net8.0/System.Net.Http.Json.xml",
+        "lib/netstandard2.0/System.Net.Http.Json.dll",
+        "lib/netstandard2.0/System.Net.Http.Json.xml",
+        "system.net.http.json.8.0.0.nupkg.sha512",
+        "system.net.http.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -4539,6 +4603,11 @@
       "path": "../ExplorerApp.Infrastructure/ExplorerApp.Infrastructure.csproj",
       "msbuildProject": "../ExplorerApp.Infrastructure/ExplorerApp.Infrastructure.csproj"
     },
+    "ExplorerApp.Services/1.0.0": {
+      "type": "project",
+      "path": "../ExplorerApp.Services/ExplorerApp.Services.csproj",
+      "msbuildProject": "../ExplorerApp.Services/ExplorerApp.Services.csproj"
+    },
     "ExplorerApp.Shared/1.0.0": {
       "type": "project",
       "path": "../ExplorerApp.Shared/ExplorerApp.Shared.csproj",
@@ -4548,6 +4617,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "ExplorerApp.Infrastructure >= 1.0.0",
+      "ExplorerApp.Services >= 1.0.0",
       "ExplorerApp.Shared >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.2",
@@ -4556,23 +4626,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\brene\\.nuget\\packages\\": {},
+    "C:\\Users\\orozc\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+      "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
       "projectName": "ExplorerApp",
-      "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
-      "packagesPath": "C:\\Users\\brene\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\obj\\",
+      "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+      "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\brene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4587,11 +4657,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
+            "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
             },
-            "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
-              "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
+            "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj": {
+              "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj"
+            },
+            "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+              "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
             }
           }
         }
@@ -4650,7 +4723,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

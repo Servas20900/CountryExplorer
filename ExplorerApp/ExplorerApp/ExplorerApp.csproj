@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ExplorerApp.Infrastructure\ExplorerApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ExplorerApp.Services\ExplorerApp.Services.csproj" />
     <ProjectReference Include="..\ExplorerApp.Shared\ExplorerApp.Shared.csproj" />
   </ItemGroup>
 

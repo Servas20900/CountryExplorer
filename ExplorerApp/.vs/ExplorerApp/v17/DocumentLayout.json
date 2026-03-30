@@ -1,81 +1,93 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\",
+  "WorkspaceRootPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.services\\interfaces\\ifavoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\interfaces\\ifavoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.services\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.services\\restcountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\restcountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|solutionrelative:explorerapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\explorerapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\explorerapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\migrations\\20260317054840_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\migrations\\20260317054840_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|solutionrelative:explorerapp\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\countrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\countrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\createfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\createfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\createcountrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\createcountrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\explorerapp.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\explorerapp.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\usernotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\usernotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\models\\usernote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\models\\usernote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|solutionrelative:explorerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.services\\explorerapp.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\explorerapp.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.services\\explorerapp.services.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\explorerapp.services.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.services\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp\\explorerapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|solutionrelative:explorerapp\\explorerapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.services\\restcountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\restcountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\explorerapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\explorerapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.services\\interfaces\\ifavoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817615C4-A323-4A7C-BA56-A2F2AE383506}|ExplorerApp.Services\\ExplorerApp.Services.csproj|solutionrelative:explorerapp.services\\interfaces\\ifavoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|solutionrelative:explorerapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\migrations\\20260317054840_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\migrations\\20260317054840_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0818BCD4-5712-454D-B5A4-ED7741ACC7EC}|ExplorerApp\\ExplorerApp.csproj|solutionrelative:explorerapp\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\countrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\countrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\createfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\createfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\createcountrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\createcountrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\explorerapp.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\explorerapp.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.shared\\dtos\\usernotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD5B9A0-B217-4E8F-8BF9-AF337996FF50}|ExplorerApp.Shared\\ExplorerApp.Shared.csproj|solutionrelative:explorerapp.shared\\dtos\\usernotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\models\\usernote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\models\\usernote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\projects\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|c:\\proyectos\\prograavanzadaweb\\explorerapp\\explorerapp.infrastructure\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B745815E-908E-4D0E-A885-A632320CF9BB}|ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj|solutionrelative:explorerapp.infrastructure\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -86,12 +98,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 650,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 17,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -118,11 +126,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -138,50 +150,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FavoriteService.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\FavoriteService.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Services\\FavoriteService.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\FavoriteService.cs",
-              "RelativeToolTip": "ExplorerApp.Services\\FavoriteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T21:25:55.291Z",
+              "DocumentIndex": 2,
+              "Title": "ExplorerApp.Services",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
+              "RelativeDocumentMoniker": "ExplorerApp.Services\\ExplorerApp.Services.csproj",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
+              "RelativeToolTip": "ExplorerApp.Services\\ExplorerApp.Services.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T19:56:00.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "ExplorerApp",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+              "RelativeDocumentMoniker": "ExplorerApp\\ExplorerApp.csproj",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+              "RelativeToolTip": "ExplorerApp\\ExplorerApp.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBUAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T19:46:58.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExplorerApp.Services",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
+              "RelativeDocumentMoniker": "ExplorerApp.Services\\ExplorerApp.Services.csproj",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
+              "RelativeToolTip": "ExplorerApp.Services\\ExplorerApp.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T19:46:50.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RestCountriesService.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\RestCountriesService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\RestCountriesService.cs",
               "RelativeDocumentMoniker": "ExplorerApp.Services\\RestCountriesService.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\RestCountriesService.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\RestCountriesService.cs",
               "RelativeToolTip": "ExplorerApp.Services\\RestCountriesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T20:00:51.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IFavoriteService.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\Interfaces\\IFavoriteService.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Services\\Interfaces\\IFavoriteService.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\Interfaces\\IFavoriteService.cs",
-              "RelativeToolTip": "ExplorerApp.Services\\Interfaces\\IFavoriteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T20:00:17.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ICountryService.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\Interfaces\\ICountryService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\Interfaces\\ICountryService.cs",
               "RelativeDocumentMoniker": "ExplorerApp.Services\\Interfaces\\ICountryService.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\Interfaces\\ICountryService.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\Interfaces\\ICountryService.cs",
               "RelativeToolTip": "ExplorerApp.Services\\Interfaces\\ICountryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,115 +214,151 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\appsettings.json",
-              "RelativeDocumentMoniker": "ExplorerApp\\appsettings.json",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\appsettings.json",
-              "RelativeToolTip": "ExplorerApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-17T05:43:19.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "ExplorerApp.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAuwFAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\Program.cs",
+              "RelativeDocumentMoniker": "ExplorerApp\\Program.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\Program.cs",
+              "RelativeToolTip": "ExplorerApp\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:35:09.646Z",
+              "WhenOpened": "2026-03-17T05:37:20.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FavoriteService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\FavoriteService.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Services\\FavoriteService.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\FavoriteService.cs",
+              "RelativeToolTip": "ExplorerApp.Services\\FavoriteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T21:25:55.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "IFavoriteService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\Interfaces\\IFavoriteService.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Services\\Interfaces\\IFavoriteService.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\Interfaces\\IFavoriteService.cs",
+              "RelativeToolTip": "ExplorerApp.Services\\Interfaces\\IFavoriteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T20:00:17.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ExplorerApp.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
               "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
               "RelativeToolTip": "ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-03-17T05:12:48.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20260317054840_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Migrations\\20260317054840_InitialCreate.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\Migrations\\20260317054840_InitialCreate.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Migrations\\20260317054840_InitialCreate.cs",
-              "RelativeToolTip": "ExplorerApp.Infrastructure\\Migrations\\20260317054840_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:48:40.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateCountryDto.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CreateCountryDto.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Shared\\DTOs\\CreateCountryDto.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CreateCountryDto.cs",
-              "RelativeToolTip": "ExplorerApp.Shared\\DTOs\\CreateCountryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:53:07.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "CreateFavoriteDto.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CreateFavoriteDto.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Shared\\DTOs\\CreateFavoriteDto.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CreateFavoriteDto.cs",
-              "RelativeToolTip": "ExplorerApp.Shared\\DTOs\\CreateFavoriteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ExplorerApp.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:53:04.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T05:35:09.646Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "CountryDto.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CountryDto.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Shared\\DTOs\\CountryDto.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CountryDto.cs",
-              "RelativeToolTip": "ExplorerApp.Shared\\DTOs\\CountryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:53:06.271Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ExplorerApp\\appsettings.json",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\appsettings.json",
+              "RelativeToolTip": "ExplorerApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-17T05:43:19.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CountriesController.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\Controllers\\CountriesController.cs",
-              "RelativeDocumentMoniker": "ExplorerApp\\Controllers\\CountriesController.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\Controllers\\CountriesController.cs",
-              "RelativeToolTip": "ExplorerApp\\Controllers\\CountriesController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGUAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "20260317054840_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Migrations\\20260317054840_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\Migrations\\20260317054840_InitialCreate.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Migrations\\20260317054840_InitialCreate.cs",
+              "RelativeToolTip": "ExplorerApp.Infrastructure\\Migrations\\20260317054840_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:55:20.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T05:48:40.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateCountryDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CreateCountryDto.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Shared\\DTOs\\CreateCountryDto.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CreateCountryDto.cs",
+              "RelativeToolTip": "ExplorerApp.Shared\\DTOs\\CreateCountryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T05:53:07.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateFavoriteDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CreateFavoriteDto.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Shared\\DTOs\\CreateFavoriteDto.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CreateFavoriteDto.cs",
+              "RelativeToolTip": "ExplorerApp.Shared\\DTOs\\CreateFavoriteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T05:53:04.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CountryDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CountryDto.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Shared\\DTOs\\CountryDto.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\CountryDto.cs",
+              "RelativeToolTip": "ExplorerApp.Shared\\DTOs\\CountryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T05:53:06.271Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "CountriesController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\Controllers\\CountriesController.cs",
+              "RelativeDocumentMoniker": "ExplorerApp\\Controllers\\CountriesController.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\Controllers\\CountriesController.cs",
+              "RelativeToolTip": "ExplorerApp\\Controllers\\CountriesController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T05:55:20.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ExplorerApp.Shared.csproj",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
               "RelativeDocumentMoniker": "ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
               "RelativeToolTip": "ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -307,81 +367,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "FavoriteDto.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\FavoriteDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\FavoriteDto.cs",
               "RelativeDocumentMoniker": "ExplorerApp.Shared\\DTOs\\FavoriteDto.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\FavoriteDto.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\FavoriteDto.cs",
               "RelativeToolTip": "ExplorerApp.Shared\\DTOs\\FavoriteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:53:09.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserNoteDto.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\UserNoteDto.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Shared\\DTOs\\UserNoteDto.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\UserNoteDto.cs",
-              "RelativeToolTip": "ExplorerApp.Shared\\DTOs\\UserNoteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:54:10.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserNote.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\UserNote.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\Models\\UserNote.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\UserNote.cs",
-              "RelativeToolTip": "ExplorerApp.Infrastructure\\Models\\UserNote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:34:30.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\Program.cs",
-              "RelativeDocumentMoniker": "ExplorerApp\\Program.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\Program.cs",
-              "RelativeToolTip": "ExplorerApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:37:20.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Country.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\Country.cs",
-              "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\Models\\Country.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\Country.cs",
-              "RelativeToolTip": "ExplorerApp.Infrastructure\\Models\\Country.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:33:41.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T05:53:09.154Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "UserNoteDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\UserNoteDto.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Shared\\DTOs\\UserNoteDto.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\DTOs\\UserNoteDto.cs",
+              "RelativeToolTip": "ExplorerApp.Shared\\DTOs\\UserNoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T05:54:10.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserNote.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\UserNote.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\Models\\UserNote.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\UserNote.cs",
+              "RelativeToolTip": "ExplorerApp.Infrastructure\\Models\\UserNote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T05:34:30.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\Models\\Country.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\Country.cs",
+              "RelativeToolTip": "ExplorerApp.Infrastructure\\Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T05:33:41.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Favorite.cs",
-              "DocumentMoniker": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\Favorite.cs",
+              "DocumentMoniker": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\Favorite.cs",
               "RelativeDocumentMoniker": "ExplorerApp.Infrastructure\\Models\\Favorite.cs",
-              "ToolTip": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\Favorite.cs",
+              "ToolTip": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\Models\\Favorite.cs",
               "RelativeToolTip": "ExplorerApp.Infrastructure\\Models\\Favorite.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T05:34:10.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T05:34:10.713Z"
             }
           ]
         },

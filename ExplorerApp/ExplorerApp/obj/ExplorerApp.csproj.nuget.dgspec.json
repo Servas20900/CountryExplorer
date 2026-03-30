@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {}
+    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
+    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
         "projectName": "ExplorerApp.Infrastructure",
-        "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\brene\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\obj\\",
+        "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\brene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -81,24 +81,102 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
-        "projectName": "ExplorerApp.Shared",
-        "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
-        "packagesPath": "C:\\Users\\brene\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
+        "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
+        "projectName": "ExplorerApp.Services",
+        "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
+        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\brene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
+              },
+              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "projectName": "ExplorerApp.Shared",
+        "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -146,24 +224,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {
+    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+        "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
         "projectName": "ExplorerApp",
-        "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
-        "packagesPath": "C:\\Users\\brene\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\obj\\",
+        "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\brene\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,11 +256,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
+              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
               },
-              "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
-                "projectPath": "C:\\Projects\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
+              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj": {
+                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj"
+              },
+              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
               }
             }
           }
@@ -241,7 +322,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

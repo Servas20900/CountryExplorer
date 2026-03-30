@@ -16,6 +16,7 @@ namespace ExplorerApp.Services
         public RestCountriesService(HttpClient httpClient, AppDbContext context)
         {
             _httpClient = httpClient;
+            _context = context;
             _httpClient.BaseAddress = new Uri("https://restcountries.com/v3.1/");
         }
 
