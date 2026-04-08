@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {}
+    "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+    "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
         "projectName": "ExplorerApp.Shared",
-        "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
-        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

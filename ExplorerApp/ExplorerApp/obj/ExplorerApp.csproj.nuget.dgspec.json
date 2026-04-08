@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {}
+    "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
+    "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
         "projectName": "ExplorerApp.Infrastructure",
-        "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -81,24 +81,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj": {
+    "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
         "projectName": "ExplorerApp.Services",
-        "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
-        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,11 +113,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
+              "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
               },
-              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
-                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
+              "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
               }
             }
           }
@@ -132,12 +132,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -159,24 +163,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+    "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
         "projectName": "ExplorerApp.Shared",
-        "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
-        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -203,7 +207,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -224,24 +228,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {
+    "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
         "projectName": "ExplorerApp",
-        "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
-        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\ExplorerApp.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -256,14 +260,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Infrastructure\\ExplorerApp.Infrastructure.csproj"
+              "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj": {
+                "projectPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj"
               },
-              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj": {
-                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Services\\ExplorerApp.Services.csproj"
-              },
-              "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
-                "projectPath": "C:\\Proyectos\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
+              "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\sebas\\OneDrive\\Desktop\\Escritorio\\U\\SegundaMitadDeCarrera\\SeptimoCuatri\\Progra Web\\Proyecto\\repo\\PrograAvanzadaWeb\\ExplorerApp\\ExplorerApp.Shared\\ExplorerApp.Shared.csproj"
               }
             }
           }
@@ -278,21 +279,13 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
@@ -322,7 +315,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

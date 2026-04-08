@@ -2,6 +2,8 @@
 {
     public class CreateFavoriteDto
     {
-        public int CountryId { get; set; }
+        public string CountryCode { get; set; } = string.Empty;
+        public string CommonName { get; set; } = string.Empty;
+        public string FlagPngUrl { get; set; } = string.Empty;
     }
 }

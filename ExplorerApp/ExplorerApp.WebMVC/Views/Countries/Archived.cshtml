@@ -1,0 +1,87 @@
+@model List<CountryDto>
+@{
+    ViewData["Title"] = "Archivados";
+}
+
+<div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-lg shadow-slate-200/60">
+    <div class="mb-6 flex items-end justify-between gap-4">
+        <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">Archivados</p>
+            <h1 class="mt-2 text-3xl font-black text-slate-950">Paises archivados</h1>
+        </div>
+    </div>
+
+    <div id="archivedEmpty" class="hidden rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-8 text-center text-slate-600">
+        No hay paises archivados.
+    </div>
+
+    <div id="archivedTableWrap" class="overflow-hidden rounded-2xl border border-slate-200">
+        <table class="min-w-full divide-y divide-slate-200 text-left text-sm">
+            <thead class="bg-slate-50 text-slate-600">
+                <tr>
+                    <th class="px-4 py-3 font-semibold">Bandera</th>
+                    <th class="px-4 py-3 font-semibold">Nombre</th>
+                    <th class="px-4 py-3 font-semibold">Capital</th>
+                    <th class="px-4 py-3 font-semibold">Region</th>
+                    <th class="px-4 py-3 font-semibold">Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="archivedBody" class="divide-y divide-slate-100 bg-white"></tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const archivedBody = document.getElementById('archivedBody');
+        const archivedEmpty = document.getElementById('archivedEmpty');
+        const archivedTableWrap = document.getElementById('archivedTableWrap');
+
+        async function loadArchivedCountries() {
+            const response = await fetch(`${window.explorerApiBaseUrl}api/countries/archived`);
+            const countries = response.ok ? await response.json() : [];
+
+            if (!countries.length) {
+                archivedBody.innerHTML = '';
+                archivedTableWrap.classList.add('hidden');
+                archivedEmpty.classList.remove('hidden');
+                return;
+            }
+
+            archivedEmpty.classList.add('hidden');
+            archivedTableWrap.classList.remove('hidden');
+            archivedBody.innerHTML = countries.map(country => `
+                <tr>
+                    <td class="px-4 py-3"><img src="${country.flagPngUrl}" class="h-10 w-16 rounded object-contain bg-slate-50 p-1" alt="bandera ${country.commonName}" /></td>
+                    <td class="px-4 py-3 font-medium text-slate-900">${country.commonName}</td>
+                    <td class="px-4 py-3 text-slate-700">${country.capital}</td>
+                    <td class="px-4 py-3 text-slate-700">${country.region}</td>
+                    <td class="px-4 py-3">
+                        <button type="button" data-country-id="${country.id}" class="unarchive-country rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-2 text-xs font-semibold text-emerald-700 hover:bg-emerald-100">Desarchivar</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        archivedBody.addEventListener('click', async (event) => {
+            const button = event.target.closest('.unarchive-country');
+            if (!button) {
+                return;
+            }
+
+            const countryId = button.dataset.countryId;
+            const response = await fetch(`${window.explorerApiBaseUrl}api/countries/${countryId}/unarchive`, {
+                method: 'POST'
+            });
+
+            if (response.ok) {
+                window.showAppBanner('Pais desarchivado correctamente.', 'success');
+                await loadArchivedCountries();
+            } else {
+                window.showAppBanner('No se pudo desarchivar el pais.', 'error');
+            }
+        });
+
+        loadArchivedCountries();
+    </script>
+}

@@ -1,0 +1,87 @@
+@model List<CountryDto>
+@{
+    ViewData["Title"] = "Paises guardados";
+}
+
+<div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-lg shadow-slate-200/60">
+    <div class="mb-6 flex items-end justify-between gap-4">
+        <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">Paises guardados</p>
+            <h1 class="mt-2 text-3xl font-black text-slate-950">Registros en base de datos</h1>
+        </div>
+    </div>
+
+    <div id="savedEmpty" class="hidden rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-8 text-center text-slate-600">
+        Todavia no hay paises guardados.
+    </div>
+
+    <div id="savedTableWrap" class="overflow-hidden rounded-2xl border border-slate-200">
+        <table class="min-w-full divide-y divide-slate-200 text-left text-sm">
+            <thead class="bg-slate-50 text-slate-600">
+                <tr>
+                    <th class="px-4 py-3 font-semibold">Bandera</th>
+                    <th class="px-4 py-3 font-semibold">Nombre</th>
+                    <th class="px-4 py-3 font-semibold">Capital</th>
+                    <th class="px-4 py-3 font-semibold">Region</th>
+                    <th class="px-4 py-3 font-semibold">Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="savedBody" class="divide-y divide-slate-100 bg-white"></tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const savedBody = document.getElementById('savedBody');
+        const savedEmpty = document.getElementById('savedEmpty');
+        const savedTableWrap = document.getElementById('savedTableWrap');
+
+        async function loadSavedCountries() {
+            const response = await fetch(`${window.explorerApiBaseUrl}api/countries`);
+            const countries = response.ok ? await response.json() : [];
+
+            if (!countries.length) {
+                savedBody.innerHTML = '';
+                savedTableWrap.classList.add('hidden');
+                savedEmpty.classList.remove('hidden');
+                return;
+            }
+
+            savedEmpty.classList.add('hidden');
+            savedTableWrap.classList.remove('hidden');
+            savedBody.innerHTML = countries.map(country => `
+                <tr>
+                    <td class="px-4 py-3"><img src="${country.flagPngUrl}" class="h-10 w-16 rounded object-contain bg-slate-50 p-1" alt="bandera ${country.commonName}" /></td>
+                    <td class="px-4 py-3 font-medium text-slate-900">${country.commonName}</td>
+                    <td class="px-4 py-3 text-slate-700">${country.capital}</td>
+                    <td class="px-4 py-3 text-slate-700">${country.region}</td>
+                    <td class="px-4 py-3">
+                        <button type="button" data-country-id="${country.id}" class="archive-country rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-xs font-semibold text-amber-700 hover:bg-amber-100">Archivar</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        savedBody.addEventListener('click', async (event) => {
+            const button = event.target.closest('.archive-country');
+            if (!button) {
+                return;
+            }
+
+            const countryId = button.dataset.countryId;
+            const response = await fetch(`${window.explorerApiBaseUrl}api/countries/${countryId}/archive`, {
+                method: 'POST'
+            });
+
+            if (response.ok) {
+                window.showAppBanner('Pais archivado correctamente.', 'success');
+                await loadSavedCountries();
+            } else {
+                window.showAppBanner('No se pudo archivar el pais.', 'error');
+            }
+        });
+
+        loadSavedCountries();
+    </script>
+}

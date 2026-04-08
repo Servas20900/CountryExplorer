@@ -3,10 +3,9 @@
     public class Favorite
     {
         public int Id { get; set; }
-        public int CountryId { get; set; }
-        public DateTime AddedDate { get; set; } = DateTime.UtcNow;
-
-        public Country Country { get; set; } = null!;
-        public ICollection<UserNote> UserNotes { get; set; } = new List<UserNote>();
+        public string CountryCode { get; set; } = string.Empty;
+        public string CommonName { get; set; } = string.Empty;
+        public string FlagPngUrl { get; set; } = string.Empty;
+        public DateTime AddedAt { get; set; } = DateTime.UtcNow;
     }
 }

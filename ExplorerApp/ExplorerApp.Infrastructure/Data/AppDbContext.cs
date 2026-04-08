@@ -23,24 +23,53 @@ namespace ExplorerApp.Infrastructure.Data
 
                 entity.HasKey(e => e.Id);
 
-                entity.Property(e => e.Name)
+                entity.Property(e => e.CountryCode)
                     .IsRequired()
-                    .HasMaxLength(100);
+                    .HasMaxLength(10);
+
+                entity.Property(e => e.CommonName)
+                    .IsRequired()
+                    .HasMaxLength(200);
+
+                entity.Property(e => e.OfficialName)
+                    .IsRequired()
+                    .HasMaxLength(300);
 
                 entity.Property(e => e.Capital)
                     .IsRequired()
-                    .HasMaxLength(100);
+                    .HasMaxLength(200);
 
                 entity.Property(e => e.Region)
                     .IsRequired()
-                    .HasMaxLength(80);
+                    .HasMaxLength(120);
 
-                entity.Property(e => e.FlagUrl)
+                entity.Property(e => e.Subregion)
                     .IsRequired()
-                    .HasMaxLength(500);
+                    .HasMaxLength(120);
 
-                entity.Property(e => e.Population)
+                entity.Property(e => e.FlagPngUrl)
+                    .IsRequired()
+                    .HasMaxLength(600);
+
+                entity.Property(e => e.FlagSvgUrl)
+                    .IsRequired()
+                    .HasMaxLength(600);
+
+                entity.Property(e => e.Latitude)
                     .IsRequired();
+
+                entity.Property(e => e.Longitude)
+                    .IsRequired();
+
+                entity.Property(e => e.IsArchived)
+                    .HasDefaultValue(false)
+                    .IsRequired();
+
+                entity.Property(e => e.CreatedAt)
+                    .IsRequired();
+
+                entity.HasIndex(e => e.CountryCode)
+                    .IsUnique();
             });
 
             modelBuilder.Entity<Favorite>(entity =>
@@ -49,13 +78,23 @@ namespace ExplorerApp.Infrastructure.Data
 
                 entity.HasKey(e => e.Id);
 
-                entity.Property(e => e.AddedDate)
+                entity.Property(e => e.CountryCode)
+                    .IsRequired()
+                    .HasMaxLength(10);
+
+                entity.Property(e => e.CommonName)
+                    .IsRequired()
+                    .HasMaxLength(200);
+
+                entity.Property(e => e.FlagPngUrl)
+                    .IsRequired()
+                    .HasMaxLength(600);
+
+                entity.Property(e => e.AddedAt)
                     .IsRequired();
 
-                entity.HasOne(e => e.Country)
-                    .WithMany(c => c.Favorites)
-                    .HasForeignKey(e => e.CountryId)
-                    .OnDelete(DeleteBehavior.Cascade);
+                entity.HasIndex(e => e.CountryCode)
+                    .IsUnique();
             });
 
             modelBuilder.Entity<UserNote>(entity =>
@@ -64,17 +103,16 @@ namespace ExplorerApp.Infrastructure.Data
 
                 entity.HasKey(e => e.Id);
 
+                entity.Property(e => e.CountryCode)
+                    .IsRequired()
+                    .HasMaxLength(10);
+
                 entity.Property(e => e.NoteText)
                     .IsRequired()
                     .HasMaxLength(1000);
 
                 entity.Property(e => e.CreatedAt)
                     .IsRequired();
-
-                entity.HasOne(e => e.Favorite)
-                    .WithMany(f => f.UserNotes)
-                    .HasForeignKey(e => e.FavoriteId)
-                    .OnDelete(DeleteBehavior.Cascade);
             });
         }
     }

@@ -32,28 +32,62 @@ namespace ExplorerApp.Infrastructure.Migrations
 
                     b.Property<string>("Capital")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
-                    b.Property<string>("FlagUrl")
+                    b.Property<string>("CommonName")
                         .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("CountryCode")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
-                    b.Property<long>("Population")
-                        .HasColumnType("bigint");
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FlagPngUrl")
+                        .IsRequired()
+                        .HasMaxLength(600)
+                        .HasColumnType("nvarchar(600)");
+
+                    b.Property<string>("FlagSvgUrl")
+                        .IsRequired()
+                        .HasMaxLength(600)
+                        .HasColumnType("nvarchar(600)");
+
+                    b.Property<bool>("IsArchived")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<double>("Latitude")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Longitude")
+                        .HasColumnType("float");
+
+                    b.Property<string>("OfficialName")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("Region")
                         .IsRequired()
-                        .HasMaxLength(80)
-                        .HasColumnType("nvarchar(80)");
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
+
+                    b.Property<string>("Subregion")
+                        .IsRequired()
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CountryCode")
+                        .IsUnique();
 
                     b.ToTable("Countries", (string)null);
                 });
@@ -66,15 +100,28 @@ namespace ExplorerApp.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("AddedDate")
+                    b.Property<DateTime>("AddedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CountryId")
-                        .HasColumnType("int");
+                    b.Property<string>("CommonName")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("CountryCode")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("FlagPngUrl")
+                        .IsRequired()
+                        .HasMaxLength(600)
+                        .HasColumnType("nvarchar(600)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CountryId");
+                    b.HasIndex("CountryCode")
+                        .IsUnique();
 
                     b.ToTable("Favorites", (string)null);
                 });
@@ -87,11 +134,13 @@ namespace ExplorerApp.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("CountryCode")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
-
-                    b.Property<int>("FavoriteId")
-                        .HasColumnType("int");
 
                     b.Property<string>("NoteText")
                         .IsRequired()
@@ -100,41 +149,7 @@ namespace ExplorerApp.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("FavoriteId");
-
                     b.ToTable("UserNotes", (string)null);
-                });
-
-            modelBuilder.Entity("ExplorerApp.Infrastructure.Models.Favorite", b =>
-                {
-                    b.HasOne("ExplorerApp.Infrastructure.Models.Country", "Country")
-                        .WithMany("Favorites")
-                        .HasForeignKey("CountryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Country");
-                });
-
-            modelBuilder.Entity("ExplorerApp.Infrastructure.Models.UserNote", b =>
-                {
-                    b.HasOne("ExplorerApp.Infrastructure.Models.Favorite", "Favorite")
-                        .WithMany("UserNotes")
-                        .HasForeignKey("FavoriteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Favorite");
-                });
-
-            modelBuilder.Entity("ExplorerApp.Infrastructure.Models.Country", b =>
-                {
-                    b.Navigation("Favorites");
-                });
-
-            modelBuilder.Entity("ExplorerApp.Infrastructure.Models.Favorite", b =>
-                {
-                    b.Navigation("UserNotes");
                 });
 #pragma warning restore 612, 618
         }

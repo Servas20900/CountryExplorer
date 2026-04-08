@@ -17,6 +17,18 @@
         }
       }
     },
+    "/api/countries/archived": {
+      "get": {
+        "tags": [
+          "ExplorerApp"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/countries/external": {
       "get": {
         "tags": [
@@ -29,7 +41,7 @@
         }
       }
     },
-    "/api/countries/{name}": {
+    "/api/countries/search/{name}": {
       "get": {
         "tags": [
           "ExplorerApp"
@@ -60,12 +72,58 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CountryDto"
+                "$ref": "#/components/schemas/CreateCountryDto"
               }
             }
           },
           "required": true
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/countries/{id}/archive": {
+      "post": {
+        "tags": [
+          "ExplorerApp"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/countries/{id}/unarchive": {
+      "post": {
+        "tags": [
+          "ExplorerApp"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -127,18 +185,34 @@
           }
         }
       }
+    },
+    "/api/dashboard": {
+      "get": {
+        "tags": [
+          "ExplorerApp"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
-      "CountryDto": {
+      "CreateCountryDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
+          "countryCode": {
+            "type": "string",
+            "nullable": true
           },
-          "name": {
+          "commonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "officialName": {
             "type": "string",
             "nullable": true
           },
@@ -146,17 +220,29 @@
             "type": "string",
             "nullable": true
           },
-          "population": {
-            "type": "integer",
-            "format": "int64"
-          },
           "region": {
             "type": "string",
             "nullable": true
           },
-          "flagUrl": {
+          "subregion": {
             "type": "string",
             "nullable": true
+          },
+          "flagPngUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "flagSvgUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
@@ -164,9 +250,17 @@
       "CreateFavoriteDto": {
         "type": "object",
         "properties": {
-          "countryId": {
-            "type": "integer",
-            "format": "int32"
+          "countryCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "commonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "flagPngUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

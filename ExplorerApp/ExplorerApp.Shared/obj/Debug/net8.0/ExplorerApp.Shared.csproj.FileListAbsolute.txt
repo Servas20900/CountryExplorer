@@ -33,3 +33,15 @@ C:\Proyectos\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\E
 C:\Proyectos\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\refint\ExplorerApp.Shared.dll
 C:\Proyectos\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.pdb
 C:\Proyectos\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ref\ExplorerApp.Shared.dll
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\bin\Debug\net8.0\ExplorerApp.Shared.deps.json
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\bin\Debug\net8.0\ExplorerApp.Shared.dll
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\bin\Debug\net8.0\ExplorerApp.Shared.pdb
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.AssemblyInfoInputs.cache
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.AssemblyInfo.cs
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.csproj.CoreCompileInputs.cache
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.sourcelink.json
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.dll
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\refint\ExplorerApp.Shared.dll
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ExplorerApp.Shared.pdb
+c:\Users\sebas\OneDrive\Desktop\Escritorio\U\SegundaMitadDeCarrera\SeptimoCuatri\Progra Web\Proyecto\repo\PrograAvanzadaWeb\ExplorerApp\ExplorerApp.Shared\obj\Debug\net8.0\ref\ExplorerApp.Shared.dll
