@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExplorerApp.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0223dac5380902c7551b0b232e989fb336bdd080")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d4e24963202910a7b74d3de42b1816ccf5e8776")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExplorerApp.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExplorerApp.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
